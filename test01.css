@@ -1,0 +1,133 @@
+/*WHITE BOX*/
+body {
+    background: #f5f5f5;
+}
+
+.box-v {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
+
+
+body, input, select, textarea {
+  color: #777;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em;
+  letter-spacing: -0.015em;
+}
+
+/*CONTAINER*/
+#main-v {
+    padding: 4em 0;
+}
+
+
+.container-v {
+    width: 90%;
+}
+
+.container-v {
+    width: 60em;
+}
+
+
+.container-v {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*************************BOX DIVISION*********************/
+      .box-v.features .features-row:first-child {
+          border-top: 0;
+      }
+
+
+      .box-v.features .features-row:after {
+          clear: both;
+          content: '';
+          display: block;
+      }
+
+      .box-v.features .features-row:first-child section {
+          padding-top: 0;
+      }
+
+      .box-v.features .features-row section:nth-child(2n-1) {
+          padding-left: 0;
+      }
+
+      .box-v.features .features-row section {
+          float: left;
+          padding: 3em;
+          width: 50%;
+      }
+/*******************************************************************/
+
+#banner {
+  background-attachment: scroll,							fixed;
+  background-color: #666;
+  background-image: url("C:/Users/Alumno/Desktop/Playas/Test/overlay.png"), url("C:/Users/Alumno/Desktop/Playas/Test/banner.jpg");
+  background-position: top left,						center center;
+  background-repeat: repeat,							no-repeat;
+  background-size: auto,							cover;
+  color: #fff;
+  padding: 12em 0 20em 0;
+  text-align: center;
+}
+
+  #banner :last-child {
+    margin-bottom: 0;
+  }
+
+  #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+    color: #fff;
+  }
+
+  #banner h2 {
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+  }
+
+  #banner p {
+    font-size: 1.25em;
+    margin-bottom: 1.75em;
+  }
+
+  #banner input[type="submit"],
+  #banner input[type="reset"],
+  #banner input[type="button"],
+  #banner .button {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+    color: #fff;
+    min-width: 12em;
+  }
+
+    #banner input[type="submit"]:hover,
+    #banner input[type="reset"]:hover,
+    #banner input[type="button"]:hover,
+    #banner .button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner input[type="submit"]:active,
+    #banner input[type="reset"]:active,
+    #banner input[type="button"]:active,
+    #banner .button:active {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    #banner input[type="submit"].special,
+    #banner input[type="reset"].special,
+    #banner input[type="button"].special,
+    #banner .button.special {
+      background: #fff;
+      color: #666 !important;
+    }
